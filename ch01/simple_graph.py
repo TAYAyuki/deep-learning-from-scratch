@@ -1,4 +1,5 @@
 # coding: utf-8
+"""グラフの描画"""
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -9,3 +10,10 @@ y = np.sin(x)
 # グラフの描画
 plt.plot(x, y)
 plt.show()
+
+"""
+ -*- ポイント -*-
+np.arange(開始,終了,刻み)
+plt.plot()
+plt.show()
+ """
